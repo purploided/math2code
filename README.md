@@ -1,2 +1,3 @@
-# math2code
-This fine Python program will turn your math/algebra to CODE!
+<p align="center">
+  <img width="128" align="center" src="/code.png">
+</p>
