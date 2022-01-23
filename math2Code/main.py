@@ -3,7 +3,7 @@ import json
 import random
 # imports
 
-g45 = open('Functions/config.json', 'r')
+g45 = open('math2Code/Functions/config.json', 'r')
 gf45 = json.load(g45)
 
 if gf45["bypassTagSetting"] == "False":
@@ -20,7 +20,7 @@ if gf45["bypassTagSetting"] == "False":
 else:
     print('')
 
-g4 = open('Functions/config.json', 'r')
+g4 = open('math2Code/Functions/config.json', 'r')
 gf4 = json.load(g4)
 
 if gf4["bypassKeySetting"] == "False":
@@ -77,10 +77,10 @@ graycode = {
     "gray": b
 }
 
-with open('Functions/package.json', 'w') as dictionary:
+with open('math2Code/Functions/package.json', 'w') as dictionary:
             json.dump(graycode, dictionary)
 
-g = open('Functions/config.json', 'r')
+g = open('math2Code/Functions/config.json', 'r')
 gf = json.load(g)
 
 if gf["encryptSetting"] == "True":
