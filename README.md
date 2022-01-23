@@ -69,7 +69,7 @@ By changing one or more of these settings per-say:
 The rest is pretty self-explanatory
 
 <h2>
-  Licence
+  License
 </h2>
 
 [Click Here](LICENSE.md)
