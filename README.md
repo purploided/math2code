@@ -58,7 +58,8 @@ It includes:
 {
     "encryptSetting": "True",
     "bypassKeySetting": "False",
-    "bypassTagSetting": "False"
+    "bypassTagSetting": "False",
+    "skipSetting": "False"
 }
 ```
 
@@ -73,6 +74,12 @@ The rest is pretty self-explanatory
 </h2>
 
 [Click Here](LICENSE.md)
+
+<h2>
+  How to use config.json
+</h2>
+
+[Click Here](HOWTO.md)
 
 <h2>
   Creator
