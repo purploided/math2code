@@ -1,9 +1,18 @@
 #
 import json
 import random
+import sys
+import time
 # imports
 
-g45 = open('math2Code/Functions/config.json', 'r')
+def delete_last_line(): #thanks stackoverflow
+    "Use this function to delete the last line in the STDOUT"
+
+    sys.stdout.write('\x1b[1A')
+
+    sys.stdout.write('\x1b[2K')
+
+g45 = open('/math2Code/Functions/config.json', 'r')
 gf45 = json.load(g45)
 
 if gf45["bypassTagSetting"] == "False":
@@ -20,7 +29,7 @@ if gf45["bypassTagSetting"] == "False":
 else:
     print('')
 
-g4 = open('math2Code/Functions/config.json', 'r')
+g4 = open('/math2Code/Functions/config.json', 'r')
 gf4 = json.load(g4)
 
 if gf4["bypassKeySetting"] == "False":
@@ -38,6 +47,74 @@ if gf4["bypassKeySetting"] == "False":
 
 else:
     print('')
+
+print('''                                 ▄▄                                       ▄▄          
+                           ██  ███                                     ▀███          
+                           ██   ██                                       ██          
+▀████████▄█████▄  ▄█▀██▄ ██████ ███████▄   ███▀██ ▄▄██▀██  ▄██▀██▄   ▄█▀▀███   ▄▄█▀██ 
+  ██    ██    ██ ██   ██   ██   ██    ██  ███   █ ██▀  ██ ██▀   ▀██▄██    ██  ▄█▀   ██
+  ██    ██    ██  ▄█████   ██   ██    ██      ▄▄█ ██      ██     █████    ██  ██▀▀▀▀▀▀
+  ██    ██    ██ ██   ██   ██   ██    ██   ▄▄█▀   ██▄    ▄██▄   ▄██▀██    ██  ██▄    ▄
+▄████  ████  ████▄████▀██▄ ▀███████  ████▄ ██████ ██████▀  ▀█████▀  ▀████▀███▄ ▀█████▀
+                                                                                    
+                                                                                    
+''')
+
+g456 = open('/math2Code/Functions/config.json', 'r')
+gf456 = json.load(g456)
+
+if gf45["skipSetting"] == "False":
+
+    print("M")
+    time.sleep(0.2)
+    delete_last_line()
+    print("Ma")
+    time.sleep(0.1)
+    delete_last_line()
+    print("Mad")
+    time.sleep(0.3)
+    delete_last_line()
+    print("Made")
+    time.sleep(0.2)
+    delete_last_line()
+    print("Made b")
+    time.sleep(0.4)
+    delete_last_line()
+    print("Made by")
+    time.sleep(0.5)
+    delete_last_line()
+    print("Made by N")
+    time.sleep(0.3)
+    delete_last_line()
+    print("Made by Ni")
+    time.sleep(0.4)
+    delete_last_line()
+    print("Made by Nic")
+    time.sleep(0.5)
+    delete_last_line()
+    print("Made by Nico")
+    time.sleep(0.1)
+    delete_last_line()
+    print("Made by Nicoh")
+    time.sleep(0.4)
+    delete_last_line()
+    print("Made by Nicohl")
+    time.sleep(0.3)
+    delete_last_line()
+    print("Made by Nicohla")
+    time.sleep(0.75)
+    delete_last_line()
+    print("Made by Nicohlas")
+    time.sleep(0.5)
+
+else:
+    print('')
+
+print('''
+
+Thanks for cloning!
+
+''')
 
 def convert_Binary(math_for_Convert):
 
@@ -77,10 +154,10 @@ graycode = {
     "gray": b
 }
 
-with open('math2Code/Functions/package.json', 'w') as dictionary:
+with open('/math2Code/Functions/package.json', 'w') as dictionary:
             json.dump(graycode, dictionary)
 
-g = open('math2Code/Functions/config.json', 'r')
+g = open('/math2Code/Functions/config.json', 'r')
 gf = json.load(g)
 
 if gf["encryptSetting"] == "True":
